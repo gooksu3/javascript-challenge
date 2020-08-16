@@ -133,7 +133,7 @@ button {
 
 button:hover {
   transform: scale(1.5);
-  transition: all 0.2s;
+  transition: all 0.3s;
 }
 
 button:focus {
@@ -148,4 +148,8 @@ input::placeholder {
 li {
   animation: fadeIn 0.5s linear;
   font-size: 20px;
+}
+
+li span {
+  font-size: 30px;
 }
