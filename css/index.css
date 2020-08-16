@@ -60,13 +60,20 @@ body {
   padding-top: 5px;
 }
 
+.js-clockTitle {
+  font-size: 70px;
+  font-weight: 700;
+}
+
 .form,
 .greeting {
   display: none;
+  font-size: 40px;
 }
 
 .showing {
   display: block;
+  animation: fadeIn 0.5s ease-in;
 }
 
 @keyframes fadeIn {
@@ -101,10 +108,6 @@ li:before {
   font-family: FontAwesome;
   margin-left: -1em;
   margin-right: 0.5em;
-}
-
-h1 {
-  font-size: 70px;
 }
 
 input {
