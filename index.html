@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="css/index.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/6a40271ddd.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="weather-container">
+      <div>
+        <span class="js-clouds">
+          <i class="fas fa-cloud fa-2x"></i>
+        </span>
+        <span class="js-clear">
+          <i class="fas fa-sun fa-2x"></i>
+        </span>
+        <span class="js-fog">
+          <i class="fas fa-bars fa-2x"></i>
+        </span>
+        <span class="js-snow">
+          <i class="fas fa-snowflake fa-2x"></i>
+        </span>
+        <span class="js-rain">
+          <i class="fas fa-cloud-rain fa-2x"></i>
+        </span>
+        <span class="js-thunder">
+          <i class="fas fa-poo-storm fa-2x"></i>
+        </span>
+        <div class="js-weatherText"></div>
+      </div>
+      <div>
+        <div class="js-temp"></div>
+        <div class="js-position"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="js-clock">
+        <h1></h1>
+      </div>
+      <form class="js-form form">
+        <input type="text" placeholder="What's your name?" />
+      </form>
+      <h2 class="js-greeting greeting"></h2>
+      <form class="js-toDoForm">
+        <input type="text" placeholder="Write a to do" />
+      </form>
+      <ul class="js-toDoList"></ul>
+      <script src="clock.js"></script>
+      <script src="greeting.js"></script>
+      <script src="todo.js"></script>
+      <script src="bg.js"></script>
+      <script src="weather.js"></script>
+    </div>
+  </body>
+</html>
